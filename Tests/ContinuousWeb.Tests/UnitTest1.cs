@@ -1,12 +1,13 @@
+//using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using WebApplication.Controllers;
-using Xunit;
+using ContinuousWeb.Controllers;
 
 namespace ContinuousWeb.Tests
 {
+    [TestClass]
     public class HomeControllerTests
     {        
-        [Fact]
+        [TestMethod]
         public void AboutPageTest()
         {
             var homeController = new HomeController();
